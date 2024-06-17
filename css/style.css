@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+    }
+
+body {
+    font-family: "Open sans";
+   font-size: 12px;
+}
+
+
+h1 {
+    margin-top: 30px;
+    font-family: "Nanum Gothic";
+    font-weight: 500;
+}
+
+
+p {
+font-size: 17px;
+margin-top: 20px;
+padding: 20px;
+}
+
+h5 {
+
+font-family: "Nanum Gothic";
+margin-top: 10px;
+padding: 8%;
+}
+
+section div {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: lightgray;
+}
+
+img {
+
+    height: 100%;
+    width: 100%;
+    
+    object-fit:cover;
+    
+    }
+
+
+    @media(max-width:768) {
+        body {
+            font-size: 12px;
+        }}
